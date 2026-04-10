@@ -418,96 +418,13 @@ a.es::before {
     width: 380px;
 }
 
-#get-in-touch {
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 0px 25px 0px;
-    transition: .5s;
-}
-
-#get-in-touch.dark{
-    background-color: #E6E6E6;
-    color: #000000;
-}
-
-#get-in-touch h1 {
-    text-align: center;
-    padding: 15px 5px 5px 5px;
-    color: #FFFFFF;
-}
-
-#get-in-touch.dark h1 {
-    color: #000000;
-}
-
-#form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: #FF2E88;
-    width: 550px;
-    box-shadow: 0 3px 6px #000000;
-}
-
-#form button {
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    gap: 5px;
-    border-radius: 6px;
-    font-size: 15px;
-    padding: 10px;
-    width: 120px;
-    cursor: pointer;
-    margin-right: 5px;
-    transition: .5s;
-    background-color: #FFFFFF;
-}
-
-#form button:hover {
-    transform: scale(1.05);
-}
-
-#form .form-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-#form .form-info .name input,
-#form .form-info .email input  {
-    border: none;
-    height: 25px;
-    width: 245px;
-    margin-top: 5px;
-    padding: 5px;
-    outline: none;
-}
-
-#form .message textarea {
-    width: 500px;
-    height: 150px;
-    resize: none;
-    border: none;
-    margin-top: 5px;
-    padding: 5px;
-    outline: none;
-}
-
 #footer {
-    background-color: #000000;
+    background-color: #252525;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 5px;
     padding: 15px 5px 15px 5px;
 }
 
@@ -518,19 +435,22 @@ a.es::before {
 }
 
 .karina p {
-    font-size: 15px;
+    font-size: 20px;
+    flex-wrap: nowrap;
 }
 
 .contact {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact .email, .contact .whatsapp,
 .contact .address {
     display: flex;
     align-items: center;
-    gap: 5px;
-    padding: 5px 10px 5px 10px;
+    gap: 3px;
+    padding: 5px;
 }
 
 .contact .email i, .contact .whatsapp i,
@@ -594,5 +514,16 @@ a.es::before {
 
     #skills-slide .skill {
         font-size: 80px;
+    }
+
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 400px) {
+    #me {
+        min-height: 80%;
     }
 }

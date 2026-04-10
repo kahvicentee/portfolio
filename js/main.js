@@ -12,10 +12,6 @@ const translations = {
         aboutme1: "",
         aboutme2: "",
         projects: "Projects",
-        form: "Get In Touch",
-        formname: "Name:",
-        formmessage: "Message",
-        send: "Submit",
         address: "São Paulo - SP, Brazil"
     },
     pt: {
@@ -31,10 +27,6 @@ const translations = {
         aboutme1: "",
         aboutme2: "",
         projects: "Projetos",
-        form: "Entre em contato",
-        formname: "Nome:",
-        formmessage: "Mensagem:",
-        send: "Enviar",
         address: "São Paulo - SP, Brasil"
     }
 }
