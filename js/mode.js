@@ -6,7 +6,6 @@ let sectionAboutMe = document.getElementById('about-me');
 let skillSets = document.getElementById('my-skillsets')
 let skills = document.getElementById('skills')
 let sectionProjects = document.getElementById('projects')
-let getTouch = document.getElementById('get-in-touch');
 
 changeMode.addEventListener('click', () => {
     changeMode.classList.toggle('dark')
@@ -17,5 +16,4 @@ changeMode.addEventListener('click', () => {
     skillSets.classList.toggle('dark')
     skills.classList.toggle('dark')
     sectionProjects.classList.toggle('dark')
-    getTouch.classList.toggle('dark')
 })
