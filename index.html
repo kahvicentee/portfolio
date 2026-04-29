@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Karina Vicente</title>
-    <link rel="icon" href="assets/images/logo.png" type="img/png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" sizes="32x32" href="assets/images/logo.png" type="img/png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
+
+    <!-- JavaScript Files -->
     <script src="js/mode.js" defer></script>
+    <script src="js/projects.js" defer></script>
     <script src="js/main.js" defer></script>
     <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
 
@@ -42,14 +48,14 @@
             <div id="info">
                 <p data-lang="hello">Hello, I'm</p>
                 <h1>KARINA VICENTE</h1>
-                <h2 data-lang="role">FULL-STACK WEB DEVELOPER</h2>
+                <h2 data-lang="role">FULL-STACK DEVELOPER</h2>
                 <button data-lang="resume">Download Resume</button>
                 
                 <div class="icons">
-                    <a href="https://github.com/kahvicentee"><i class="fa-brands fa-github icon"></i></a>
-                    <a href="https://www.linkedin.com/in/karinasvicente/"><i class="fa-brands fa-linkedin-in icon"></i></a>
-                    <a href="mailto:karinavicente.dev@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>
-                    <a href="https://wa.me/11959012406"><i class="fa-brands fa-whatsapp icon"></i></a>
+                    <a href="https://github.com/kahvicentee" target="_blank" rel="noopener noreferrer" title="Github"><i class="fa-brands fa-github icon"></i></a>
+                    <a href="https://www.linkedin.com/in/karinasvicente/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                    <a href="mailto:karinavicente.dev@gmail.com" target="_blank" rel="noopener noreferrer" title="E-mail"><i class="fa-regular fa-envelope icon"></i></a>
+                    <a href="https://wa.me/11959012406"><i class="fa-brands fa-whatsapp icon" title="Whatsapp"></i></a>
                 </div>
             </div>
             <div id="photo">
@@ -78,7 +84,7 @@
         </section>
         <section id="about-me">
             <h1 data-lang="aboutme">About Me</h1>
-            <p data-lang="aboutme1">Hi, I'm Karina Vicente, a developer focused on full-stack development. My journey in tech started 2 years ago, but it quickly became something I take seriously. Since then, I've been consistently studying, practicing, and building projects to turn knowledge into real thinks.</p>
+            <p data-lang="aboutme1">Hi, I'm Karina Vicente. I'm currently pursuing a degree in Systems Analysis and Development at SENAC. I'm a developer focused on full-stack development. My journey in tech started 2 years ago, but it quickly became something I take seriously. Since then, I've been consistently studying, practicing, and building projects to turn knowledge into real thinks.</p>
             <br>
             <p data-lang="aboutme2">I enjoy working on the logic behind applications - understanding how things connect, how systems behave, and how to turn ideas into something functional. I'm not just interested in making things work, but in understanding why they work. Right now, I'm focused on improving through real projects and pushing myself to grow every day as a developer.</p>
         </section>
@@ -89,11 +95,10 @@
                     <i class="fa-brands fa-html5 skill"></i>
                     <i class="fa-brands fa-css3-alt skill"></i>
                     <i class="fa-brands fa-js skill"></i>
+                    <i class="fa-brands fa-python skill"></i>
                     <i class="fa-brands fa-react skill"></i>
                     <i class="fa-brands fa-node skill"></i>
                     <i class="fa-brands fa-sass skill"></i>
-                    <i class="fa-brands fa-java skill"></i>
-                    <i class="fa-brands fa-python skill"></i>
                     <i class="fa-brands fa-figma skill"></i>
                     <i class="fa-brands fa-github skill"></i>
                 </div>
@@ -101,11 +106,10 @@
                     <i class="fa-brands fa-html5 skill"></i>
                     <i class="fa-brands fa-css3-alt skill"></i>
                     <i class="fa-brands fa-js skill"></i>
+                    <i class="fa-brands fa-python skill"></i>
                     <i class="fa-brands fa-react skill"></i>
                     <i class="fa-brands fa-node skill"></i>
                     <i class="fa-brands fa-sass skill"></i>
-                    <i class="fa-brands fa-java skill"></i>
-                    <i class="fa-brands fa-python skill"></i>
                     <i class="fa-brands fa-figma skill"></i>
                     <i class="fa-brands fa-github skill"></i>
                 </div>
@@ -114,18 +118,7 @@
         <section id="projects">
             <h1 data-lang="projects">Projects</h1>
             <div id="cards-projects">
-                <div class="card-proj">
-                    <img src="assets/images/project-1.png" alt="">
-                </div>
-                <div class="card-proj">
-                    <img src="assets/images/project-1.png" alt="">
-                </div>
-                <div class="card-proj">
-                    <img src="assets/images/project-1.png" alt="">
-                </div>
-                <div class="card-proj">
-                    <img src="assets/images/project-1.png" alt="">
-                </div>
+                <!-- projects.js -->
             </div>
         </section>
         <footer id="footer">
