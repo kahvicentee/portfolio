@@ -3,21 +3,6 @@ let currentLang = "en";
 const projects = [
     {
         title: {
-            en: "TaskFlow",
-            pt: "TaskFlow (Lista de Tarefas)"
-        },
-        description: {
-            en: "This project was developed as a task management application, with the goal of helping users organize their daily activities in a simple and efficient way. Key features include task creation, editing and deletion, dynamic state updates, and a responsive interface. The project focuses on component-based architecture, state management, and clean code practices.",
-            pt: "Este projeto foi desenvolvido como uma aplicação de gerenciamento de tarefas, com o foco em ajudar usuários a organizarem suas tarefas diárias de forma simples e eficiente. Entre as funcionalidades estão, criar, editar e apagar tarefas, atualização dinâmica de estado e uma interface responsiva. O projeto foca em arquitetura baseada em componentes, gerenciamento de estados e boas práticas de código."
-        },
-        image: "assets/images/taskFlow.png",
-        link: "",
-        code: "https://github.com/kahvicentee/projetoListaDeTarefas.git",
-        post: "",
-        techs: ["react", "sass", "node"]
-    },
-    {
-        title: {
             en: "Calculator App",
             pt: "Calculadora"
         },
@@ -37,7 +22,7 @@ const projects = [
             pt: "Calculadora De Idade",
         },
         description: {
-            en: "This project also was developed as a Frontend Mentor challenge, wit the goal of building a responsive and accurate age calculator based on user input. Key features include form validation with real-time error feedback, precise date calculations considering months and leap years, and a clean, accessible interface.",
+            en: "This project also was developed as a Frontend Mentor challenge, with the goal of building a responsive and accurate age calculator based on user input. Key features include form validation with real-time error feedback, precise date calculations considering months and leap years, and a clean, accessible interface.",
             pt: "Este projeto também foi desenvolvido como um desafio do Frontend Mentor, com o objetivo de criar uma calculadora de idade responsiva e precisa a partir dos dados inseridos pelo usuário. Entre as principais funcionalidades estão a validação de formulário com feedback de erros, cálculos de datas precisas, além de uma interface limpa e acessível."
         },
         image: "assets/images/ageCalculatorApp.png",
@@ -45,6 +30,42 @@ const projects = [
         code: "https://github.com/kahvicentee/ageCalculatorApp.git",
         post: "",
         techs: ["html5", "css3-alt", "js"]
+    },
+    {
+        title: {
+            en: "Weather Now",
+            pt: "Weather Now"
+        },
+        description: {
+            en: "This project was developed as a modern weather aplication focused on delivering real-time climate data through external API integration. Key features include dynamic weather updates based on user location or search input, responsive layouts for different devices, interactive UI components built with React, and detailed forecasts with temperature, humidity, wind, and condition indicators.",
+            pt: "Esse projeto foi desenvolvido como uma aplicação moderna de previsão de tempo, com foco na exibição de dados climáticos em tempo real através da integração com uma API externa. Os principais recursos incluem atualizações dinâmicas baseadas na localização do usuário ou em pesquisas por cidade, layout totalmente responsivo, componentes interativos desenvolvidos com React e previsões detalhadas com informações de temperatura, umidade, vento e condições climáticas."
+        },
+        image: "assets/images/weatherNow.png",
+        link: "",
+        code: "https://github.com/kahvicentee/weatherApp.git",
+        post: "",
+        techs: ["react", "sass"]
+    },
+    {
+        title: {
+            en: "TaskFlow",
+            pt: "TaskFlow"
+        },
+        /*
+        description: {
+            en: "This project was developed as a task management application, with the goal of helping users organize their daily activities in a simple and efficient way. Key features include task creation, editing and deletion, dynamic state updates, and a responsive interface. The project focuses on component-based architecture, state management, and clean code practices.",
+            pt: "Este projeto foi desenvolvido como uma aplicação de gerenciamento de tarefas, com o foco em ajudar usuários a organizarem suas tarefas diárias de forma simples e eficiente. Entre as funcionalidades estão, criar, editar e apagar tarefas, atualização dinâmica de estado e uma interface responsiva. O projeto foca em arquitetura baseada em componentes, gerenciamento de estados e boas práticas de código."
+        },
+        */
+        description: {
+            en: "This project is still under development.",
+            pt: "Este projeto ainda está em desenvolvimento."
+        },
+        image: "assets/images/taskFlow.png",
+        link: "",
+        code: "",
+        post: "",
+        techs: ["react", "sass", "node"]
     }
 ];
 
