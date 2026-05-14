@@ -3,6 +3,21 @@ let currentLang = "en";
 const projects = [
     {
         title: {
+            en: "Weather Now",
+            pt: "Weather Now"
+        },
+        description: {
+            en: "This project was developed as a modern weather aplication focused on delivering real-time climate data through external API integration. Key features include dynamic weather updates based on user location or search input, responsive layouts for different devices, interactive UI components built with React, and detailed forecasts with temperature, humidity, wind, and condition indicators.",
+            pt: "Esse projeto foi desenvolvido como uma aplicação moderna de previsão de tempo, com foco na exibição de dados climáticos em tempo real através da integração com uma API externa. Os principais recursos incluem atualizações dinâmicas baseadas na localização do usuário ou em pesquisas por cidade, layout totalmente responsivo, componentes interativos desenvolvidos com React e previsões detalhadas com informações de temperatura, umidade, vento e condições climáticas."
+        },
+        image: "assets/images/weatherNow.png",
+        link: "",
+        code: "https://github.com/kahvicentee/weatherApp.git",
+        post: "",
+        techs: ["react", "sass"]
+    },
+    {
+        title: {
             en: "Calculator App",
             pt: "Calculadora"
         },
@@ -33,17 +48,17 @@ const projects = [
     },
     {
         title: {
-            en: "Weather Now",
-            pt: "Weather Now"
+            en: "REST Countries API",
+            pt: "REST Countries API"
         },
         description: {
-            en: "This project was developed as a modern weather aplication focused on delivering real-time climate data through external API integration. Key features include dynamic weather updates based on user location or search input, responsive layouts for different devices, interactive UI components built with React, and detailed forecasts with temperature, humidity, wind, and condition indicators.",
-            pt: "Esse projeto foi desenvolvido como uma aplicação moderna de previsão de tempo, com foco na exibição de dados climáticos em tempo real através da integração com uma API externa. Os principais recursos incluem atualizações dinâmicas baseadas na localização do usuário ou em pesquisas por cidade, layout totalmente responsivo, componentes interativos desenvolvidos com React e previsões detalhadas com informações de temperatura, umidade, vento e condições climáticas."
+            en: "This project was developed as an interactive application for exploring information about countries around the world through REST Countries API integration. Key features include dynamic search by country name, region-based filtering, real-time display of data such as population, capital, and languages, as well as a responsive and modern interface built with React.",
+            pt: "Este projeto foi desenvolvido como uma aplicação interativa para explorar informações de países ao redor do mundo utilizando a integração com a REST Countries API. Os principais recursos incluem pesquisa dinâmica por nome, filtragem por região, exibição de dados em tempo real como população, capital e idioma, além de uma interface responsiva e moderna construída com React."
         },
-        image: "assets/images/weatherNow.png",
-        link: "",
-        code: "https://github.com/kahvicentee/weatherApp.git",
-        post: "",
+        image: "assets/images/restCountriesApi.png",
+        link: "https://restcountriesapibykah.netlify.app",
+        code: "https://github.com/kahvicentee/restCountriesApi.git",
+        post: "", 
         techs: ["react", "sass"]
     },
     {

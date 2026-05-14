@@ -491,7 +491,7 @@ a.es::before {
         flex-direction: column;
         align-items: center;
         max-height: none;
-        padding-top: 30px;
+        padding: 12px;
     }
 
     #photo {
@@ -505,7 +505,8 @@ a.es::before {
     }
 
     #info h1 {
-        font-size: 40px;
+        font-size: 45px;
+        line-height: 45px;
     }
 
     #info h2 {
@@ -518,7 +519,6 @@ a.es::before {
 
     #things-i-love #cards {
         flex-direction: column;
-        padding: 10px;
     }
 
     #cards .card {
@@ -539,8 +539,20 @@ a.es::before {
     }
 }
 
-@media (min-width: 400px) {
-    #me {
-        min-height: 80%;
+@media (max-width: 400px) {
+    #info {
+        gap: 8px;
+    }
+
+    #info p {
+        font-size: 22px;
+    }
+
+    #info h1 {
+        font-size: 50px;
+    }
+
+    #info h2 {
+        font-size: 22px;
     }
 }
