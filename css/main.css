@@ -491,7 +491,7 @@ a.es::before {
         flex-direction: column;
         align-items: center;
         max-height: none;
-        padding: 12px;
+        padding: 10px 5px 0px 5px;
     }
 
     #photo {
@@ -499,7 +499,7 @@ a.es::before {
     }
 
     #photo img {
-        width: 250px;
+        width: 300px;
         height: auto;
         margin-top: 20px;
     }

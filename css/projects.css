@@ -116,12 +116,12 @@
 @media (max-width: 768px) {
     #cards-projects {
         grid-template-columns: 1fr;
-        padding: 0px 60px;
+        padding: 0px 45px;
     }
 }
 
 @media (max-width: 460px) {
     #cards-projects{
-        padding: 0px 45px;
+        padding: 0px 25px;
     }
 }
