@@ -14,6 +14,7 @@ const translations = {
         aboutme2: "I enjoy working on the logic behind applications - understanding how things connect, how systems behave, and how to turn ideas into something functional. I'm not just interested in making things work, but in understanding why they work. Right now, I'm focused on improving through real projects and pushing myself to grow every day as a developer.",
         skillsets: "My Skillsets",
         projects: "Projects",
+        certificates: "Courses and Certificates",
         address: "São Paulo - SP, Brazil"
     },
     pt: {
@@ -30,6 +31,7 @@ const translations = {
         aboutme2: "Gosto de trabalhar com a lógica por trás das aplicações - entender como as coisas se conectam, como os sistemas se comportam e como transformar ideias em algo funcional. Não me interessa apenas fazer as coisas funcionarem, mas entender o porquê delas funcionarem. Atualmente, estou focada em evoluir através de projetos reais e em me desenvolver todos os dias como uma verdadeira profissional.",
         skillsets: "Minhas habilidades",
         projects: "Projetos",
+        certificates: "Cursos e Certificados",
         address: "São Paulo - SP, Brasil"
     }
 }

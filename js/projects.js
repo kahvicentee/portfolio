@@ -11,9 +11,9 @@ const projects = [
             pt: "Esse projeto foi desenvolvido como uma aplicação moderna de previsão de tempo, com foco na exibição de dados climáticos em tempo real através da integração com uma API externa. Os principais recursos incluem atualizações dinâmicas baseadas na localização do usuário ou em pesquisas por cidade, layout totalmente responsivo, componentes interativos desenvolvidos com React e previsões detalhadas com informações de temperatura, umidade, vento e condições climáticas."
         },
         image: "assets/images/weatherNow.png",
-        link: "",
+        link: "https://kahvicentee.github.io/weatherApp/",
         code: "https://github.com/kahvicentee/weatherApp.git",
-        post: "",
+        post: "https://www.linkedin.com/posts/karinasvicente_react-javascript-frontend-ugcPost-7463302663951110145-zJ4Z?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFFoQvYB67XQbhhBWs7mpms6pNNhjPdcz4k",
         techs: ["react", "sass"]
     },
     {
