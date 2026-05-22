@@ -33,7 +33,7 @@ const certificates = [
             en: "See certificate",
             pt: "Ver certificado"
         },
-        certificate: ""
+        certificate: "python.pdf"
     },
     {
         about: {

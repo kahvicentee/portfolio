@@ -56,3 +56,9 @@
     align-items: center;
     gap: 5px;
 }
+
+@media (max-width: 375px) {
+    .card-certificate {
+        width: 350px;
+    }
+}

@@ -4,6 +4,7 @@
     --black: #000000;
     --white: #ffffff;
     --gray-light: #e6e6e6;
+    --gray-light-2: #eeeeee;
     --gray-medium: #383838;
     --gray-dark: #252525;
 }
@@ -278,7 +279,7 @@ a.es::before {
 
 #things-i-love.dark{
     color: var(--gray-dark);
-    background-color: var(--white);
+    background-color: var(--gray-light);
 }
 
 #things-i-love h1 {
@@ -300,6 +301,10 @@ a.es::before {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 10% cover 40%;
+}
+
+#things-i-love.dark h1 {
+    color: var(--gray-medium);
 }
 
 #things-i-love #cards {
@@ -330,18 +335,18 @@ a.es::before {
 }
 
 #things-i-love.dark #cards .card h2 {
-    color: #FF2E88;
+    color: var(--pink);
 }
 
 .card .thing {
     color: #E6E6E6;
     font-size: 70px;
-    background-color: #FF2E88;
+    background-color: var(--pink);
     border-radius: 100px;
 }
 
 #things-i-love.dark #cards .card .thing {
-    color: #FFFFFF;
+    color: var(--gray-light-2);
 }
 
 .card .fa-js,
@@ -354,8 +359,8 @@ a.es::before {
 }
 
 #things-i-love.dark #cards .card {
-    background-color: #FFFFFF;
-    box-shadow: #000000;
+    background-color: var(--gray-light-2);
+    box-shadow: var(--gray-medium);
     box-shadow: 0 2px 5px #252525;
 }
 
@@ -363,11 +368,11 @@ a.es::before {
     color: #252525;
     text-align: center;
     padding: 30px 150px 60px 150px;
-    background-color: #FF2E88;
+    background-color: var(--pink);
 }
 
 #about-me.dark{
-    color: #FFFFFF;
+    color: var(--gray-light);
 }
 
 #about-me h1 {
@@ -389,19 +394,23 @@ a.es::before {
     padding: 25px 5px 5px 15px;
 }
 
+#my-skillsets.dark {
+    background-color: var(--gray-light-2);
+}
+
 #my-skillsets.dark h1{
-    color: #FF2E88;
+    color: var(--pink);
 }
 
 #skills {
     overflow: hidden;
     white-space: nowrap;
-    background-color: #252525;
+    background-color: var(--gray-dark);
     transition: .5s;
 }
 
 #skills.dark {
-    background-color: #E6E6E6;
+    background-color: var(--gray-light-2);
 }
 
 #skills:hover #skills-slide {
@@ -433,8 +442,17 @@ a.es::before {
 }
 
 #projects.dark {
-    background-color: #FFFFFF;
-    color: #252525;
+    background-color: var(--gray-light);
+    color: var(--gray-medium);
+}
+
+#projects.dark .card-proj {
+    background-color: var(--gray-light-2);
+    border: 1px var(--gray-medium) solid;
+}
+
+#projects.dark .card-proj:hover {
+    border: 1px var(--pink) solid;
 }
 
 #certificates {
@@ -446,6 +464,27 @@ a.es::before {
     justify-content: center;
     background-color: var(--black);
     color: var(--white);
+}
+
+#certificates.dark {
+    background-color: var(--gray-light);
+}
+
+#certificates.dark h1 {
+    color: var(--gray-dark);
+}
+
+#certificates.dark .card-certificate {
+    background-color: var(--gray-light-2);
+    color: var(--gray-dark);
+}
+
+#certificates.dark .card-certificate button {
+    color: var(--gray-dark);
+}
+
+#certificates.dark .card-certificate a {
+    color: var(--gray-dark);
 }
 
 #cards-certificates {
