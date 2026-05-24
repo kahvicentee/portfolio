@@ -470,6 +470,11 @@ a.es::before {
     background-color: var(--gray-light);
 }
 
+.certificates-title {
+    text-align: center;
+    padding: 0px 5px ;
+}
+
 #certificates.dark h1 {
     color: var(--gray-dark);
 }
@@ -594,6 +599,11 @@ a.es::before {
 
     #skills-slide .skill {
         font-size: 80px;
+    }
+
+    #certificates h1 {
+        padding: 0px 5px;
+        text-align: center;
     }
 
     #cards-certificates {
