@@ -601,11 +601,6 @@ a.es::before {
         font-size: 80px;
     }
 
-    #certificates h1 {
-        padding: 0px 5px;
-        text-align: center;
-    }
-
     #cards-certificates {
         grid-template-columns: 1fr;
     }
