@@ -3,6 +3,21 @@ let currentLang = "en";
 const projects = [
     {
         title: {
+            en: "FINANZA",
+            pt: "FINANZA"
+        },
+        description: {
+            en: "Financial management platform that helps users organize and track their income and expenses. The system provides interactive charts and custom date filters to analyze financial activity. Its main highlight is the automatic generation of detailed Excel reports, including financial summaries, transaction history, and category analysis.",
+            pt: "Plataforma de gerenciamento financeiro que permite aos usuários controlar receitas e despesas de forma simples e organizada. O sistema oferece gráficos interativos para acompanhar a evolução financeira e filtros personalizados por período. Como principal diferencial, gera relatórios completos em Excel com resumo financeiro, histórico de movimentação e análise por categorias."
+        },
+        image: "assets/images/finanza.png",
+        link: "",
+        code: "https://github.com/kahvicentee/finanza.git",
+        post: "https://www.linkedin.com/posts/karinasvicente_react-nodejs-express-ugcPost-7482837049541189633-VZUE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFoQvYB67XQbhhBWs7mpms6pNNhjPdcz4k",
+        techs: ["fa-brands fa-react", "fa-brands fa-sass", "fa-brands fa-node", "fa-brands fa-python"]
+    },
+    {
+        title: {
             en: "Weather Now",
             pt: "Weather Now"
         },
@@ -14,7 +29,7 @@ const projects = [
         link: "https://kahvicentee.github.io/weatherApp/",
         code: "https://github.com/kahvicentee/weatherApp.git",
         post: "https://www.linkedin.com/posts/karinasvicente_react-javascript-frontend-ugcPost-7463302663951110145-zJ4Z?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFFoQvYB67XQbhhBWs7mpms6pNNhjPdcz4k",
-        techs: ["react", "sass"]
+        techs: ["fa-brands fa-react", "fa-brands fa-sass"]
     },
     {
         title: {
@@ -29,7 +44,7 @@ const projects = [
         link: "https://kahvicentee.github.io/calculatorApp/",
         code: "https://github.com/kahvicentee/calculatorApp.git",
         post: "https://www.linkedin.com/posts/karinasvicente_acabei-de-finalizar-mais-um-projeto-ugcPost-7452365593493823488-mbBY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFFoQvYB67XQbhhBWs7mpms6pNNhjPdcz4k",
-        techs: ["html5", "css3-alt", "js"]
+        techs: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
     },
     {
         title: {
@@ -44,44 +59,29 @@ const projects = [
         link: "https://kahvicentee.github.io/ageCalculatorApp/",
         code: "https://github.com/kahvicentee/ageCalculatorApp.git",
         post: "",
-        techs: ["html5", "css3-alt", "js"]
+        techs: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
     },
-    {
-        title: {
-            en: "REST Countries API",
-            pt: "REST Countries API"
-        },
-        description: {
-            en: "This project was developed as an interactive application for exploring information about countries around the world through REST Countries API integration. Key features include dynamic search by country name, region-based filtering, real-time display of data such as population, capital, and languages, as well as a responsive and modern interface built with React.",
-            pt: "Este projeto foi desenvolvido como uma aplicação interativa para explorar informações de países ao redor do mundo utilizando a integração com a REST Countries API. Os principais recursos incluem pesquisa dinâmica por nome, filtragem por região, exibição de dados em tempo real como população, capital e idioma, além de uma interface responsiva e moderna construída com React."
-        },
-        image: "assets/images/restCountriesApi.png",
-        link: "https://restcountriesapibykah.netlify.app",
-        code: "https://github.com/kahvicentee/restCountriesApi.git",
-        post: "", 
-        techs: ["react", "sass"]
-    },
-    {
-        title: {
-            en: "TaskFlow",
-            pt: "TaskFlow"
-        },
-        /*
-        description: {
-            en: "This project was developed as a task management application, with the goal of helping users organize their daily activities in a simple and efficient way. Key features include task creation, editing and deletion, dynamic state updates, and a responsive interface. The project focuses on component-based architecture, state management, and clean code practices.",
-            pt: "Este projeto foi desenvolvido como uma aplicação de gerenciamento de tarefas, com o foco em ajudar usuários a organizarem suas tarefas diárias de forma simples e eficiente. Entre as funcionalidades estão, criar, editar e apagar tarefas, atualização dinâmica de estado e uma interface responsiva. O projeto foca em arquitetura baseada em componentes, gerenciamento de estados e boas práticas de código."
-        },
-        */
-        description: {
-            en: "This project is still under development.",
-            pt: "Este projeto ainda está em desenvolvimento."
-        },
-        image: "assets/images/taskFlow.png",
-        link: "",
-        code: "",
-        post: "",
-        techs: ["react", "sass", "node"]
-    }
+    // {
+    //     title: {
+    //         en: "TaskFlow",
+    //         pt: "TaskFlow"
+    //     },
+    //     /*
+    //     description: {
+    //         en: "This project was developed as a task management application, with the goal of helping users organize their daily activities in a simple and efficient way. Key features include task creation, editing and deletion, dynamic state updates, and a responsive interface. The project focuses on component-based architecture, state management, and clean code practices.",
+    //         pt: "Este projeto foi desenvolvido como uma aplicação de gerenciamento de tarefas, com o foco em ajudar usuários a organizarem suas tarefas diárias de forma simples e eficiente. Entre as funcionalidades estão, criar, editar e apagar tarefas, atualização dinâmica de estado e uma interface responsiva. O projeto foca em arquitetura baseada em componentes, gerenciamento de estados e boas práticas de código."
+    //     },
+    //     */
+    //     description: {
+    //         en: "This project is still under development.",
+    //         pt: "Este projeto ainda está em desenvolvimento."
+    //     },
+    //     image: "assets/images/taskFlow.png",
+    //     link: "",
+    //     code: "",
+    //     post: "",
+    //     techs: ["fa-brands fa-react", "fa-brands fa-sass", "fa-brands fa-node"]
+    // }
 ];
 
 const container = document.getElementById('cards-projects');
@@ -99,12 +99,15 @@ function renderProjects() {
 
                 <div class="overlay">
                     <div class="project-link">
-                        <a href="${project.link}" title="Link" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                        <a href="${project.code}" title="Github" target="_blank"><i class="fa-brands fa-github icon"></i></a>
-                        ${(project.post != "") 
-                            ? `<a href="${project.post}" title="Post LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>`
-                            : ""
-                        }
+                    ${(project.link != "")
+                        ? `<a href="${project.link}" title="Link" target="_blank"><i class="fa-solid fa-globe"></i></a>`
+                        : ""
+                    }
+                    <a href="${project.code}" title="Github" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                    ${(project.post != "") 
+                        ? `<a href="${project.post}" title="Post LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>`
+                        : ""
+                    }
                     </div>
                 </div>
             </div>
@@ -119,7 +122,7 @@ function renderProjects() {
 
         project.techs.forEach(tech => {
             const icon = document.createElement("i");
-            icon.className = `fa-brands fa-${tech}`;
+            icon.className = `${tech}`;
             techsCard.appendChild(icon);
         })
 
